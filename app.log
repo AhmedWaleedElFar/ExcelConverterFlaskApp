@@ -1,0 +1,26 @@
+Exception on /option2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Amany\Desktop\FABMisr\Processing_app.py", line 275, in option2
+    font-family: Arial, sans-serif;
+NameError: name 'font' is not defined
+Exception on /option2 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Amany\Desktop\FABMisr\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Amany\Desktop\FABMisr\Processing_app.py", line 275, in option2
+    font-family: Arial, sans-serif;
+NameError: name 'font' is not defined
